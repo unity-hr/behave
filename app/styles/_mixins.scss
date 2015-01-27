@@ -1,0 +1,8 @@
+@mixin center($width: null) {
+  margin-left: auto;
+  margin-right: auto;
+
+  @if $width {
+    max-width: $width;
+  }
+}

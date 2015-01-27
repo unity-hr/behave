@@ -9,8 +9,11 @@
 
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
+    <link rel="stylesheet" href="/bower_components/normalize-css/normalize.css" />
     <!-- endbower -->
     <!-- endbuild -->
+
+    <script type="text/javascript" src="http://fast.fonts.net/jsapi/ccc95edf-8a2d-419f-a2f6-c54aab36d32f.js"></script>
 
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
@@ -25,15 +28,19 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <div class="hero-unit">
-      <h1>'Allo, 'Allo!</h1>
-      <p>You now have</p>
-      <ul>
-        <li>HTML5 Boilerplate</li>
-        <li>Sass</li>
-        <li>Modernizr</li>
-      </ul>
-    </div>
+    <header class="header" role="banner">
+      <div class="container">
+        <img class="img-responsive" src="images/behave.svg" alt="behave logo" width="659" height="423" onerror="this.onerror=null; this.src='images/behave@2x.png'">
+        <h1 class="header-title">Behavioral analytics for retail</h1>
+        <p class="header-lead">Launching new tracking technology and in store behavioral psychology in 2015</p>
+      </div>
+    </header>
+
+    <footer class="footer" role="contentinfo">
+      <div class="container">
+        <h2><a href="mailto:b@behaveinc.com">b@behaveinc.com</a></h2>
+      </div>
+    </footer>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>

@@ -1,0 +1,46 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: $font-regular;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-bold;
+}
+
+h1 {
+  font-size: 4em;
+  font-size: 8vmin;
+}
+
+h2 {
+  font-size: 3em;
+  font-size: 6vmin;
+}
+
+p {
+  font-size: 1.375em;
+  font-size: 2vmax;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
+
+.img-responsive {
+  @include center;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

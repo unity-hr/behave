@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: color(primary);
+
+  &-lead {
+    @include center(24em);
+  }
+}
